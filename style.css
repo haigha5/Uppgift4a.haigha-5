@@ -16,12 +16,12 @@ body {
     font-family: Candara, Verdana, sans-serif;
 }
 /* Denna regel tillämpar stilen på elementet med class "Tabell1" */
-.Tabell1 {
+.tabell1 {
     /* Anger bakgrundsfärgen till en ljusrosa nyans (#ffcccc) */
     background-color: #ffcccc;
 }
 /* Denna regel tillämpar stilen på elementet med class "Tabell2" */
-.Tabell2 {
+.tabell2 {
     /* Anger bakgrundsfärgen till en ljusorange/persikonyans (#ffcc99) */
     background-color: #ffcc99;
 }
