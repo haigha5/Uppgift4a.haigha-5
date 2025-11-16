@@ -1,0 +1,8 @@
+/* Denna regel ställer in typsnittet för alla rubriker (h1, h2, h3, h4, h5, h6) */
+h1, h2, h3, h4, h5, h6 {
+    /* Prioriterad ordning av typsnitt: */
+    /* 1. Arial (om tillgängligt) */
+    /* 2. Helvetica (om Arial inte finns) */
+    /* 3. sans-serif (en generisk reserv om varken Arial eller Helvetica finns) */
+    font-family: Arial, Helvetica, sans-serif;
+}
