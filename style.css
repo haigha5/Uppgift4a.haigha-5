@@ -26,7 +26,7 @@ body {
 }
 
 /* Krav: Tabell2: bakgrundsfärg #ffcc99 (Använder ID:t #tabell2) */
-زtabell2 {
+.tabell2 {
     background-color: #ffcc99;
     /* Extra styling för att tabellen ska se bättre ut */
     width: 100%;
