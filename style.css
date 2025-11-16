@@ -15,3 +15,33 @@ body {
     /* 3. sans-serif (en generisk reserv om varken Candara eller Verdana finns) */
     font-family: Candara, Verdana, sans-serif;
 }
+/* Denna regel tillämpar stilen på elementet med ID "Tabell1" */
+#Tabell1 {
+    /* Anger bakgrundsfärgen till en ljusrosa nyans (#ffcccc) */
+    background-color: #ffcccc;
+}
+/* Denna regel tillämpar stilen på elementet med ID "Tabell2" */
+#Tabell2 {
+    /* Anger bakgrundsfärgen till en ljusorange/persikonyans (#ffcc99) */
+    background-color: #ffcc99;
+}
+/* --- Grön färg till texten längst ner --- */
+/* Denna regel tillämpar stilen på 'footer'-elementet (sidfoten) */
+footer {
+    /* Anger textfärgen till mörkgrön (#009900) */
+    color: #009900;
+}
+
+
+/* --- Länkinteraktion (:hover) --- */
+/* Denna regel definierar stilen för alla länkar (a-element) när användaren */
+/* för muspekaren över dem (med pseudo-klassen :hover). */
+a:hover {
+    /* Exempel: Ändra textfärgen till röd vid hovring */
+    color: #ff0000;
+    
+    /* Exempel: Ändra bakgrundsfärgen till ljusgrå vid hovring */
+    background-color: #f0f0f0;
+    
+    /* Du kan anpassa färgerna ovan till de du föredrar. */
+}
