@@ -26,7 +26,7 @@ body {
 }
 
 /* Krav: Tabell2: bakgrundsfärg #ffcc99 (Använder ID:t #tabell2) */
-#tabell2 {
+زtabell2 {
     background-color: #ffcc99;
     /* Extra styling för att tabellen ska se bättre ut */
     width: 100%;
@@ -35,7 +35,7 @@ body {
 }
 
 /* Gemensam styling för alla tabellceller (td, th) för att lägga till kanter och lite utrymme */
-.tabell1 td, .tabell1 th, #tabell2 td, #tabell2 th {
+.tabell1 td, .tabell1 th, .tabell2 td, .tabell2 th {
     border: 1px solid #333;
     padding: 8px;
     text-align: left;
