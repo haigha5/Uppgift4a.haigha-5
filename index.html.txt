@@ -1,0 +1,58 @@
+<!--
+Startsidan för webbplatsen.
+Den ger en kort introduktion till företaget
+och dess verksamhet.
+-->
+<!DOCTYPE html>
+<html lang="sv">
+
+<!-- Head innehåller metadata och kopplingar -->
+<head>
+<!-- Teckenkodning för svenska bokstäver -->
+<meta charset="UTF-8">
+
+<!-- Titel i webbläsarfliken -->
+<title>MedicTech Sweden</title>
+
+<!-- Länk till CSS-filen -->
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- Sidhuvud med företagsnamn och meny -->
+<header>
+<h1>MedicTech Sweden</h1>
+
+<!-- Navigeringsmeny -->
+<nav>
+<a href="index.html">Hem</a>
+<a href="about.html">Om oss</a>
+<a href="products.html">Produkter</a>
+<a href="contact.html">Kontakta oss</a>
+</nav>
+</header>
+
+<!-- Huvudinnehåll -->
+<div class="container">
+
+<!-- Informationskort -->
+<div class="card">
+<h2>Välkommen</h2>
+<p>
+MedicTech Sweden är ett svenskt ledande företag
+specialiserat på försäljning av medicinsk utrustning
+till sjukhus och kliniker i Sverige och världen över.
+</p>
+</div>
+
+</div>
+
+<!-- Sidfot -->
+<footer>
+© 2025 MedicTech Sweden
+</footer>
+
+</body>
+</html>
+

@@ -1,0 +1,54 @@
+<!--
+Denna sida visar detaljerade produkter
+inom en specifik kategori.
+-->
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+<meta charset="UTF-8">
+<title>Klinikutrustning</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- Sidhuvud -->
+<header>
+<h1>Klinikutrustning</h1>
+</header>
+
+<!-- Innehåll -->
+<div class="container">
+
+<!-- Produkt 1 -->
+<div class="card">
+<h3>Undersökningsbrits</h3>
+<img src="images/equipment1.jpg" alt="Undersökningsbrits">
+<p>
+Ergonomisk och hållbar brits
+anpassad för kliniskt bruk.
+</p>
+</div>
+
+<!-- Produkt 2 -->
+<div class="card">
+<h3>Medicinsk LED-lampa</h3>
+<img src="images/equipment2.jpg" alt="Medicinsk lampa">
+<p>
+Kraftfull LED-belysning
+för undersökningar och behandlingar.
+</p>
+</div>
+
+</div>
+
+<!-- Sidfot -->
+<footer>
+© 2025 MedicTech Sweden
+</footer>
+
+</body>
+</html>
+
+<!--

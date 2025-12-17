@@ -1,0 +1,104 @@
+<!--
+Detta är kontakt-sidan.
+Den innehåller kontaktinformation samt ett formulär
+där användaren kan skicka ett meddelande.
+-->
+<!DOCTYPE html>
+<html lang="sv">
+
+<!-- Head-sektionen innehåller metadata och länk till CSS -->
+<head>
+<!-- Anger teckenkodning för svenska bokstäver -->
+<meta charset="UTF-8">
+
+<!-- Titel som visas i webbläsarfliken -->
+<title>Kontakta oss</title>
+
+<!-- Koppling till den externa CSS-filen -->
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- Sidhuvud med rubrik -->
+<header>
+<h1>Kontakta oss</h1>
+</header>
+
+<!-- Huvudinnehåll -->
+<div class="container">
+
+<!-- Kontaktuppgifter -->
+<div class="card">
+<p>Email: info@medictechsweden.se</p>
+<p>Telefon: +46 70 123 45 67</p>
+</div>
+
+<!-- Kontaktformulär -->
+<div class="card">
+
+<!-- Formuläret där användaren matar in sina uppgifter -->
+<form id="contactForm">
+
+<!-- Fält för namn -->
+<input type="text" id="name" placeholder="Namn" required>
+
+<!-- Fält för e-post -->
+<input type="email" id="email" placeholder="E-post" required>
+
+<!-- Textfält för meddelande -->
+<textarea id="message" placeholder="Meddelande"></textarea>
+
+<!-- Skicka-knapp -->
+<button type="submit">Skicka</button>
+
+</form>
+</div>
+
+<!-- Här visas sammanfattningen efter att formuläret skickats -->
+<div id="result"></div>
+
+</div>
+
+<!-- Sidfot -->
+<footer>
+© 2025 MedicTech Sweden
+</footer>
+
+<!-- JavaScript-sektion -->
+<script>
+/*
+Detta JavaScript hanterar formuläret.
+När användaren klickar på "Skicka" visas en sammanfattning
+av de uppgifter som matats in utan att sidan laddas om.
+*/
+
+// Hämtar formuläret och lyssnar på submit-händelsen
+document.getElementById("contactForm").addEventListener("submit", function(event) {
+
+// Förhindrar standardbeteendet (sidomladdning)
+event.preventDefault();
+
+// Hämtar värden från formulärfälten
+let name = document.getElementById("name").value;
+let email = document.getElementById("email").value;
+let message = document.getElementById("message").value;
+
+// Skapar HTML med en sammanfattning av användarens data
+document.getElementById("result").innerHTML = `
+<div class="card">
+<h3>Tack för ditt meddelande!</h3>
+<p><strong>Namn:</strong> ${name}</p>
+<p><strong>E-post:</strong> ${email}</p>
+<p><strong>Meddelande:</strong> ${message}</p>
+<p>Vi återkommer till dig så snart som möjligt.</p>
+</div>
+`;
+
+// Rensar formuläret efter skickning
+document.getElementById("contactForm").reset();
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+/*
+Denna CSS-fil styr design och layout
+för hela webbplatsen.
+*/
+
+/* Grundinställningar för hela sidan */
+body {
+font-family: Arial, sans-serif; /* Typsnitt */
+background-color: #e8f5e9; /* Ljusgrön bakgrund */
+margin: 0; /* Tar bort standardmarginal */
+padding: 0;
+}
+
+/* Sidhuvudets utseende */
+header {
+background-color: #2e7d32; /* Mörkgrön färg */
+color: white; /* Vit text */
+padding: 20px;
+text-align: center;
+}
+
+/* Navigationslänkar */
+nav a {
+color: white;
+margin: 0 15px;
+text-decoration: none; /* Tar bort understrykning */
+font-weight: bold;
+}
+
+/* Innehållsbehållare */
+.container {
+padding: 20px;
+}
+
+/* Kort/boxar för innehåll */
+.card {
+background-color: white; /* Vit bakgrund */
+padding: 15px;
+margin: 15px 0;
+border-radius: 8px; /* Rundade hörn */
+}
+
+/* Bilder */
+img {
+max-width: 100%;
+border-radius: 8px;
+}
+
+/* Formulärfält */
+form input,
+form textarea {
+width: 100%;
+padding: 10px;
+margin: 10px 0;
+}
+
+/* Knappdesign */
+button {
+background-color: #2e7d32;
+color: white;
+padding: 10px;
+border: none;
+cursor: pointer; /* Handpekare */
+}
+
+/* Sidfot */
+footer {
+background-color: #1b5e20;
+color: white;
+text-align: center;
+padding: 10px;
+}
+
+

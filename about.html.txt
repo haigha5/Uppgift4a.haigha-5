@@ -1,0 +1,46 @@
+<!--
+Denna sida presenterar företaget,
+dess bakgrund och expertis.
+-->
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+<meta charset="UTF-8">
+<title>Om oss</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- Sidhuvud -->
+<header>
+<h1>Om MedicTech Sweden</h1>
+</header>
+
+<!-- Innehåll -->
+<div class="container">
+
+<!-- Textkort -->
+<div class="card">
+<p>
+MedicTech Sweden är ett svenskt företag
+med högt kvalificerade ingenjörer och experter
+inom medicinsk teknik.
+</p>
+
+<p>
+Vi levererar moderna och pålitliga lösningar
+till vårdinrättningar över hela världen.
+</p>
+</div>
+
+</div>
+
+<!-- Sidfot -->
+<footer>
+© 2025 MedicTech Sweden
+</footer>
+
+</body>
+</html>
