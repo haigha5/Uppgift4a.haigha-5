@@ -1,70 +1,74 @@
-/* --- Globala Typsnittsinställningar (Fontinställningar) --- */
+/*
+Denna CSS-fil styr design och layout
+för hela webbplatsen.
+*/
 
-/* Krav: För elementen h1-h6 används typsnitt Arial, Helvetica, sans-serif. */
-h1, h2, h3, h4, h5, h6 {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-/* Krav: För övrig text används typsnitt Candara, Verdana, sans-serif. */
-/* Vi applicerar detta på 'body' så att de flesta andra element ärver stilen automatiskt. */
+/* Grundinställningar för hela sidan */
 body {
-    font-family: Candara, Verdana, sans-serif;
-    /* Tips: Lägg till lite marginal för att undvika att innehållet klistras mot webbläsarens kanter */
-    margin: 20px; 
-    line-height: 1.6; /* Förbättrar läsbarheten genom att lägga till radavstånd */
+font-family: Arial, sans-serif; /* Typsnitt */
+background-color: #e8f5e9; /* Ljusgrön bakgrund */
+margin: 0; /* Tar bort standardmarginal */
+padding: 0;
 }
 
-/* --- Tabellstilar (Använder ID och Klasser) --- */
-
-/* Krav: Tabell1: bakgrundsfärg #ffcccc (Använder klassen .tabell1) */
-.tabell1 {
-    background-color: #ffcccc;
-    /* Extra styling för att tabellen ska se bättre ut */
-    width: 100%;
-    border-collapse: collapse; /* För att slå ihop cellkanterna */
-    margin-bottom: 20px;
+/* Sidhuvudets utseende */
+header {
+background-color: #2e7d32; /* Mörkgrön färg */
+color: white; /* Vit text */
+padding: 20px;
+text-align: center;
 }
 
-/* Krav: Tabell2: bakgrundsfärg #ffcc99 (Använder ID:t #tabell2) */
-.tabell2 {
-    background-color: #ffcc99;
-    /* Extra styling för att tabellen ska se bättre ut */
-    width: 100%;
-    border-collapse: collapse; /* För att slå ihop cellkanterna */
-    margin-bottom: 20px;
+/* Navigationslänkar */
+nav a {
+color: white;
+margin: 0 15px;
+text-decoration: none; /* Tar bort understrykning */
+font-weight: bold;
 }
 
-/* Gemensam styling för alla tabellceller (td, th) för att lägga till kanter och lite utrymme */
-.tabell1 td, .tabell1 th, .tabell2 td, .tabell2 th {
-    border: 1px solid #333;
-    padding: 8px;
-    text-align: left;
+/* Innehållsbehållare */
+.container {
+padding: 20px;
 }
 
-/* Särskild styling för sidfotsraden (.foot) i Tabell 2 */
-.foot {
-    background-color: #f2f2f2; /* En annan bakgrundsfärg för raden i tabellfoten */
-    font-style: italic;
+/* Kort/boxar för innehåll */
+.card {
+background-color: white; /* Vit bakgrund */
+padding: 15px;
+margin: 15px 0;
+border-radius: 8px; /* Rundade hörn */
+}
+
+/* Bilder */
+img {
+max-width: 100%;
+border-radius: 8px;
+}
+
+/* Formulärfält */
+form input,
+form textarea {
+width: 100%;
+padding: 10px;
+margin: 10px 0;
+}
+
+/* Knappdesign */
+button {
+background-color: #2e7d32;
+color: white;
+padding: 10px;
+border: none;
+cursor: pointer; /* Handpekare */
+}
+
+/* Sidfot */
+footer {
+background-color: #1b5e20;
+color: white;
+text-align: center;
+padding: 10px;
 }
 
 
-/* --- Sidfot och Länkar --- */
-
-/* Krav: Gröna färgen till texten längst ner: #009900 (Använder ID:t #sidfot) */
-#sidfot {
-    color: #009900;
-    margin-top: 40px; /* Lägger till ett avstånd från resten av innehållet */
-    font-size: 0.9em; /* Gör texten något mindre */
-}
-
-/* Krav: Länken ska ändra färg/bakgrundsfärg när man drar muspekaren över den (:hover) */
-a:hover {
-    /* Ändrar textfärgen på länken vid hovring */
-    color: #004d00; /* Till exempel en mörkare grön */
-    
-    /* Ändrar bakgrundsfärgen bakom länken vid hovring */
-    background-color: #e0e0e0; /* Till exempel en ljusgrå färg */
-    
-    /* Tar bort understrykningen vid hovring (valfritt) */
-    text-decoration: none;
-}
