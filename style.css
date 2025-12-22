@@ -21,7 +21,7 @@ text-align: center;
 
 /* Navigationslänkar */
 nav a {
-color: white;
+color: rgb(11, 52, 189);
 margin: 0 15px;
 text-decoration: none; /* Tar bort understrykning */
 font-weight: bold;
@@ -56,10 +56,10 @@ margin: 10px 0;
 
 /* Knappdesign */
 button {
-background-color: #2e7d32;
-color: white;
+background-color: #0c0d0c;
+color: rgb(249, 244, 244);
 padding: 10px;
-border: none;
+border: none ;
 cursor: pointer; /* Handpekare */
 }
 
